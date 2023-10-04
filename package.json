@@ -8,7 +8,9 @@
     "pretty:cypress": "prettier cypress --write",
     "cypress:open": "cypress open",
     "for-loops": "ts-node app/src/for-loops",
-    "for-loops:watch": "nodemon app/src/for-loops.ts"
+    "for-loops:watch": "nodemon app/src/for-loops.ts",
+    "arrays": "ts-node app/src/arrays",
+    "arrays:watch": "nodemon app/src/arrays.ts"
   },
   "author": "",
   "license": "ISC",
