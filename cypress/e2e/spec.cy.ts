@@ -6,7 +6,7 @@ describe("template spec", () => {
       "https://wwecorp.wd5.myworkdayjobs.com/en-US/wwecorp/job/Remote---Tennessee/Music-Coordinator_R0005778/apply/applyManually",
     );
 
-    cy.get('[data-automation-id="legalNameSection_firstName"');
+    const a = cy.findByLabelText("First Name");
   });
 });
 
